@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    position: absolute;
+    background-image: url("./images/weather.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.btn_container{
+    position: relative;
+    top: 45%;
+    height: 70px;
+    width: 100%;
+    background-color: #430443; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    color: #430443;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px 5px #820682;
+}
